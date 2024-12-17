@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: rgb(216, 206, 206);
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 200px;
+}
+#logo{
+    font-size: 25px;
+    color: orange;
+}
+.navbar button{
+    display: inline;
+    background-color: orange;
+}
+.container1 .outer{
+    font-size: 25px;
+    width: 40%;
+    margin-left: 10px;
+    background-color: violet;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container1 .inner{
+    border-radius: 50px;
+    align-self: center;
+    width: 60%;
+    background-color:turquoise;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color: black;
+    border-style: dashed;
+}
+#circle{
+    background-color: black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+button{
+    display: block;
+    background-color: red;
+}
+
